@@ -1,0 +1,46 @@
+{
+  "name": "@jeanisahakyan/youi",
+  "version": "0.0.1",
+  "description": "React Native UI Kit",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint . --cache"
+  },
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanisahakyan/YoUI.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeanisahakyan/YoUI/issues"
+  },
+  "homepage": "https://github.com/jeanisahakyan/YoUI",
+  "peerDependencies": {
+    "@expo/vector-icons": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.2.0",
+    "expo-linear-gradient": "~8.1.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native-appearance": "~0.3.3",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-web": "~0.11.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@types/react": "~16.9.23",
+    "@types/react-native": "~0.61.17",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.20.0",
+    "typescript": "~3.8.3"
+  }
+}

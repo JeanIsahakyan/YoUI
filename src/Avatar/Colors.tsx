@@ -57,11 +57,11 @@ type KeyType = string | number;
 
 const getId = (key: KeyType, colors: any) => Math.abs(parseInt(key.toString().replace(/\D/g, ''), 10)) % colors.length;
 
-export const getDefaultColor = (key: KeyType): string | undefined => {
-  return defaultColors[getId(key, defaultColors)];
+export const getDefaultColor = (key: KeyType): string => {
+  return defaultColors[getId(key, defaultColors)] || defaultColors[0];
 };
 
 
-export const getGradientColor = (key: KeyType): string[] | undefined => {
-  return gradientColors[getId(key, gradientColors)];
+export const getGradientColor = (key: KeyType): string[] => {
+  return gradientColors[getId(key, gradientColors)] || defaultColors[0];
 };
